@@ -135,6 +135,9 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Images\bone-50.jpg" />
+    <Content Include="Images\the-amazing-spider-man-657.jpg" />
+    <Content Include="Images\the-amazing-spider-man-700.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
@@ -157,6 +160,7 @@
     </Content>
     <Content Include="Views\Web.config" />
     <Content Include="Views\ComicBooks\Detail.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
