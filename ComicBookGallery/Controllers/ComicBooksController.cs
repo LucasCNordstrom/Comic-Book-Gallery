@@ -10,7 +10,7 @@ namespace ComicBookGallery.Controllers {
 
             ViewBag.SeriesTitle = "The Amazing Spiderman";
             ViewBag.IssueNumber = 700;
-            ViewBag.Description = "Spiderman does something cool";
+            ViewBag.Description = "<p>Spiderman does something cool</p>";
             ViewBag.Artists = new string[]
                 {
                     "Yeers",
