@@ -8,7 +8,7 @@ namespace ComicBookGallery.Controllers {
     public class ComicBooksController : Controller {
         public ActionResult Detail() {
 
-            ViewBag.SeriesTitle = "Te Amazing Spiderman";
+            ViewBag.SeriesTitle = "The Amazing Spiderman";
             ViewBag.IssueNumber = 700;
             ViewBag.Description = "Spiderman does something cool";
             ViewBag.Artists = new string[]
