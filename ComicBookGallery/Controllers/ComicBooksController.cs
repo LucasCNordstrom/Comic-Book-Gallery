@@ -12,13 +12,14 @@ namespace ComicBookGallery.Controllers {
             var comicBook = new ComicBook() {
                 SeriesTitle = "The Amazing Spiderman",
                 IssueNumber = 700,
-                DescriptionHtml = "<p>Spiderman does something cool</p>",
+                DescriptionHtml = "<p>Final issue! Witness the final hours of Doctor Octopus' life and his one, last, great act of revenge! Even if Spider-Man survives...<strong>will Peter Parker?</strong></p>",
                 Artists = new Artist[]
                 {
-                    new Artist(){ Name = "Yeers", Role = "Something" },
-                    new Artist(){ Name = "Yoors", Role = "Something" },
-                    new Artist() {Name = "Meemers", Role = "Something" },
-                    new Artist(){ Name = "Focaccia", Role = "Something" }
+                    new Artist(){ Role = "Script", Name = "Dan Slott" },
+                    new Artist(){ Role = "Pencils", Name = "Humberto Ramos" },
+                    new Artist() {Role = "Inks", Name = "Victor Olazaba" },
+                    new Artist(){ Role = "Colors", Name = "Edgar Delgado" },
+                    new Artist(){ Role = "Letters", Name = "Chris Eliopoulos"}
                 }
 
             };
